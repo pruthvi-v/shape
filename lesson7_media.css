@@ -1,0 +1,35 @@
+.mobile {
+    display: block;
+    background-color: greenyellow;
+}
+.tablet {
+    display: none;
+}
+.laptop {
+    display: none;
+}
+
+@media (min-width: 768px){
+    .mobile {
+        display: none;
+        
+    }
+    .tablet {
+        display: block;
+        background-color: yellow;
+    }
+}
+@media (min-width: 1024px){
+    .mobile {
+        display: none;
+        
+    }
+    .tablet {
+        display: none;
+        
+    }
+    .laptop {
+        display: block;
+        background-color: aqua;
+    }
+}

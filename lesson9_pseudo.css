@@ -1,0 +1,25 @@
+.btn {
+    background-color: red;
+    color: white;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+.btn:active {
+   background-color: blanchedalmond; 
+}
+
+.btn:focus {
+    background-color: teal;
+    color: aliceblue;
+}
+
+.para::before {
+   content: "I am";
+   color: blanchedalmond; 
+}
+.para::after {
+    content: " HELLO";
+    color: rgb(184, 147, 92); 
+ }
